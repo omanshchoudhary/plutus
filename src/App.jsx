@@ -1,10 +1,13 @@
 import './App.css'
+import Header from './components/Header'
+import Summary from './components/Summary'
 
 function App() {
 
   return (
     <>
-     <h1>Hello From Plutus</h1>
+      <Header></Header>
+      <Summary></Summary>
     </>
   )
 }
